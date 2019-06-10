@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Hermione Granger",
+      "followed": true,
+      "avatar": "http://images4.fanpop.com/image/photos/24400000/Hermione-Granger-Wallpaper-hermione-granger-24489046-1024-768.jpg",
+      "status": "I'm the kindest",
+      "location": { "school": "Hogwarts", "faculty": "Gryffindor" }
+    },
+    {
+      "id": 2,
+      "fullName": "Ron Weasley",
+      "followed": true,
+      "avatar": "https://i0.wp.com/fellowshipandfairydust.com/wp-content/uploads/2018/05/ron1-300x300.png?resize=500%2C500&ssl=1",
+      "status": "I'm stupid",
+      "location": { "school": "Hogwarts", "faculty": "Gryffindor" }
+    },
+    {
+      "id": 3,
+      "fullName": "Albus Dumbledore",
+      "followed": true,
+      "avatar": "http://3.bp.blogspot.com/-q5l5NYOvfKc/Te2cU-aNb2I/AAAAAAAABY8/zhgmZkTYcXk/s1600/Albus_Dumbledore.JPG",
+      "status": "I'm the great director",
+      "location": { "school": "Hogwarts", "faculty": "Gryffindor" }
+    },
+    {
+      "id": 4,
+      "fullName": "Lord Voldemort",
+      "followed": false,
+      "avatar": "https://upload.wikimedia.org/wikipedia/en/a/a3/Lordvoldemort.jpg",
+      "status": "I want to kill Harry Potter",
+      "location": { "school": "Hogwarts", "faculty": "Slytherin" }
+    }
+  ]
+}

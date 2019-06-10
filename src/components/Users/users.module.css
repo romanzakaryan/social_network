@@ -1,0 +1,50 @@
+.userInfo {
+  display: grid;
+  grid-template-areas:
+    "left right"
+    "button .";
+  grid-template-columns: auto 5fr;
+  align-items: center;
+  padding: 10px;
+}
+
+.leftPart {
+  grid-area: left;
+}
+
+.rightPart {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  grid-area: right;
+  display: grid;
+  grid-template-areas: "personalInfo school";
+  grid-template-columns: 4fr 1fr;
+  margin: 10px;
+  align-self: stretch;
+}
+
+.personalInfo {
+  grid-area: personalInfo;
+  display: grid;
+}
+
+.status {
+  align-self: end;
+}
+
+.schoolInfo {
+  grid-area: school;
+}
+
+.followButton {
+  grid-area: button;
+  justify-self: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}

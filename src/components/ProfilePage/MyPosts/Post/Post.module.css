@@ -1,0 +1,26 @@
+.item {
+  display: grid;
+  grid-template-areas:
+    "avatar post"
+    "like .";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: minmax(100px 1fr) 1fr;
+  grid-gap: 10px;
+}
+
+.item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  grid-area: avatar;
+}
+
+.item span {
+  align-self: center;
+  grid-area: post;
+}
+
+.like {
+  justify-self: center;
+}
