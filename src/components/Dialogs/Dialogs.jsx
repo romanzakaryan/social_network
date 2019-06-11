@@ -15,12 +15,12 @@ const Dialogs = props => {
   ));
 
   let onSendMessageClick = () => {
-    props.onSendMessageClick();
+    props.sendMessage();
   };
 
   let onNewMessageChange = e => {
     let messageText = e.target.value;
-    props.onNewMessageChange(messageText);
+    props.changeMesageText(messageText);
   };
 
   return (
